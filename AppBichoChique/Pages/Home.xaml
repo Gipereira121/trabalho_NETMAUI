@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBichoChique.Pages.Home"
+             Title=""
+             BackgroundColor="#E8E8E8">
+    
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Infomações pessoais" TextColor="Black" TranslationX="30" FontAttributes="Bold"/>
+
+        <FlexLayout Wrap="Wrap" JustifyContent="Center" AlignItems="Center" Direction="Row" Padding="2">
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="250"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True">
+
+                <StackLayout Spacing="10">
+
+                    <Image 
+                        Source="gotoaccount.jpg" 
+                        Aspect="Fill" 
+                        HeightRequest="190" 
+                        WidthRequest="250"
+                        IsOpaque="True"/>
+
+                    <Label 
+                        Text="MEUS PETS" 
+                        TextColor="#D9661F" 
+                        FontAttributes="Bold" 
+                        HorizontalOptions="Center"
+                        FontSize="Medium"
+                        TranslationY="-175"/>
+
+                    <Image Source="dog.png" HorizontalOptions="End"/>
+
+                    <Label 
+                        Text="Veja as informações dos seus pets!" 
+                        TextColor="White" 
+                        FontSize="15" 
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Center"
+                        TranslationY="-170"
+                        WidthRequest="155"/>
+
+                    <Button 
+                        Text="Ver Pets" 
+                        BackgroundColor="#D9661F" 
+                        TextColor="White" 
+                        WidthRequest="100" 
+                        TranslationY="-160"
+                        x:Name="btnVerPerfil"
+                        Clicked="btnVerPetsClicked"/>
+
+                </StackLayout>
+            </Frame>
+
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="250"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True">
+
+                <StackLayout Spacing="10">
+
+                    <Image 
+                    Source="gotoaccount.jpg" 
+                    Aspect="Fill" 
+                    HeightRequest="190" 
+                    WidthRequest="250"
+                    IsOpaque="True"/>
+
+                    <Label 
+                    Text="MEUS PERFIL" 
+                    TextColor="#D9661F" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="Center"
+                    FontSize="Medium"
+                    TranslationY="-175"/>
+
+                    <Image Source="dog.png" HorizontalOptions="End"/>
+
+                    <Label 
+                    Text="Veja as informações dos seus pets!" 
+                    TextColor="White" 
+                    FontSize="15" 
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center"
+                    TranslationY="-170"
+                    WidthRequest="155"/>
+
+                    <Button 
+                    Text="Ver Pets" 
+                    BackgroundColor="#D9661F" 
+                    TextColor="White" 
+                    WidthRequest="100" 
+                    TranslationY="-160"
+                    x:Name="btnVerPerfil"
+                    Clicked="btnVerPerfilClicked"/>
+
+                </StackLayout>
+            </Frame>
+        </FlexLayout>
+
+        
+        <Label Text="Nossos serviços" TextColor="Black" TranslationX="30" FontAttributes="Bold" TranslationY="30" Padding="0, 20"/>
+        <FlexLayout Wrap="Wrap" JustifyContent="Center" AlignItems="Center" Direction="Row" Padding="2">
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="250"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True">
+
+                <StackLayout Spacing="10">
+
+                    <Image 
+                    Source="gotoaccount.jpg" 
+                    Aspect="Fill" 
+                    HeightRequest="190" 
+                    WidthRequest="250"
+                    IsOpaque="True"/>
+
+                    <Label 
+                    Text="VETERINÁRIO" 
+                    TextColor="#D9661F" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="Center"
+                    FontSize="Medium"
+                    TranslationY="-175"/>
+
+                    <Image Source="dog.png" HorizontalOptions="End"/>
+
+                    <Label 
+                    Text="Veja as informações dos seus pets!" 
+                    TextColor="White" 
+                    FontSize="15" 
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center"
+                    TranslationY="-170"
+                    WidthRequest="155"/>
+
+                    <Button 
+                    Text="Acessar" 
+                    BackgroundColor="#D9661F" 
+                    TextColor="White" 
+                    WidthRequest="100" 
+                    TranslationY="-160"
+                    x:Name="btnVerVet"
+                    Clicked="btnVerVetClicked"/>
+
+                </StackLayout>
+            </Frame>
+
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="250"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True">
+
+                <StackLayout Spacing="10">
+
+                    <Image Source="gotoaccount.jpg" Aspect="Fill" HeightRequest="190" WidthRequest="250" IsOpaque="True"/>
+
+                    <Label 
+                    Text="AGENDAMENTO" 
+                    TextColor="#D9661F" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="Center"
+                    FontSize="Medium"
+                    TranslationY="-175"/>
+
+                    <Image Source="dog.png" HorizontalOptions="End"/>
+
+                    <Label 
+                        Text="Realize seu agendamento de forma rápida!" 
+                        TextColor="White" 
+                        FontSize="15" 
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Center"
+                        TranslationY="-170"
+                        WidthRequest="155"/>
+
+                    <Button 
+                    Text="Agendar" 
+                    BackgroundColor="#D9661F" 
+                    TextColor="White" 
+                    WidthRequest="100" 
+                    TranslationY="-160"
+                    x:Name="btnAgendamento"
+                    Clicked="btnVerAgendamentoClicked"/>
+
+                </StackLayout>
+            </Frame>
+
+
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="250"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True">
+
+                <StackLayout Spacing="10">
+
+                    <Image 
+                    Source="gotoaccount.jpg" 
+                    Aspect="Fill" 
+                    HeightRequest="190" 
+                    WidthRequest="250"
+                    IsOpaque="True"/>
+
+                    <Label 
+                    Text="NOSSA LOCALIZAÇÃO" 
+                    TextColor="#D9661F" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="Center"
+                    FontSize="Medium"
+                    TranslationY="-175"/>
+
+                    <Image Source="dog.png" HorizontalOptions="End"/>
+
+                    <Label 
+                    Text="Veja as informações sobre a nossa localização!" 
+                    TextColor="White" 
+                    FontSize="15" 
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center"
+                    TranslationY="-170"
+                    WidthRequest="155"/>
+
+                    <Button 
+                    Text="Ver Pets" 
+                    BackgroundColor="#D9661F" 
+                    TextColor="White" 
+                    WidthRequest="100" 
+                    TranslationY="-160"
+                    x:Name="btnVerLocalizacao"
+                    Clicked="btnVerLocalizacaoClicked"/>
+
+                </StackLayout>
+            </Frame>
+
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="250"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True">
+
+                <StackLayout Spacing="10">
+
+                    <Image Source="gotoaccount.jpg" Aspect="Fill" HeightRequest="190" WidthRequest="250" IsOpaque="True"/>
+
+                    <Label 
+                    Text="ALGUMA DÚVIDA" 
+                    TextColor="#D9661F" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="Center"
+                    FontSize="Medium"
+                    TranslationY="-175"/>
+
+                    <Image Source="dog.png" HorizontalOptions="End"/>
+
+                    <Label 
+                    Text="Algo não ficou claro? Entre em contato com a gente!" 
+                    TextColor="White" 
+                    FontSize="15" 
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center"
+                    TranslationY="-170"
+                    WidthRequest="155"/>
+
+                    <Button 
+                    Text="Entrar em contato" 
+                    BackgroundColor="#D9661F" 
+                    TextColor="White" 
+                    WidthRequest="100" 
+                    TranslationY="-160"
+                    x:Name="btnEntrarEmContato"
+                    Clicked="btnVerContatoClicked"/>
+
+                </StackLayout>
+            </Frame>
+        </FlexLayout>
+        
+    </VerticalStackLayout>
+</ContentPage>
