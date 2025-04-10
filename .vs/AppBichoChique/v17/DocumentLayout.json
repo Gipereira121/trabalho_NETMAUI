@@ -1,0 +1,38 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\AppVeterinario\\trabalho_NETMAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7986BC87-4B06-4E35-A706-1159FFEF267A}|AppBichoChique\\AppBichoChique.csproj|c:\\users\\pc\\source\\repos\\appveterinario\\trabalho_netmaui\\appbichochique\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7986BC87-4B06-4E35-A706-1159FFEF267A}|AppBichoChique\\AppBichoChique.csproj|solutionrelative:appbichochique\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AppVeterinario\\trabalho_NETMAUI\\AppBichoChique\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppBichoChique\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AppVeterinario\\trabalho_NETMAUI\\AppBichoChique\\AppShell.xaml",
+              "RelativeToolTip": "AppBichoChique\\AppShell.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T00:13:33.985Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

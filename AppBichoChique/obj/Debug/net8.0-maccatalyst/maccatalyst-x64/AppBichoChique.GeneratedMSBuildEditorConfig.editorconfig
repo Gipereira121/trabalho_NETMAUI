@@ -12,56 +12,74 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppBichoChique
-build_property.ProjectDir = C:\Users\PC\source\repos\AppBichoChique\AppBichoChique\AppBichoChique\
+build_property.ProjectDir = C:\Users\PC\source\repos\AppVeterinario\trabalho_NETMAUI\AppBichoChique\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/PC/source/repos/AppBichoChique/AppBichoChique/AppBichoChique/App.xaml]
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/PC/source/repos/AppBichoChique/AppBichoChique/AppBichoChique/AppShell.xaml]
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/PC/source/repos/AppBichoChique/AppBichoChique/AppBichoChique/MainPage.xaml]
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/Cadastro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.Cadastro.xaml
+build_metadata.AdditionalFiles.TargetPath = Cadastro.xaml
+build_metadata.AdditionalFiles.RelativePath = Cadastro.xaml
+
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Home.xaml
+
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/PC/source/repos/AppBichoChique/AppBichoChique/AppBichoChique/Pages/Cadastro.xaml]
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/MeusPets.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.Pages.Cadastro.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Cadastro.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Cadastro.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.MeusPets.xaml
+build_metadata.AdditionalFiles.TargetPath = MeusPets.xaml
+build_metadata.AdditionalFiles.RelativePath = MeusPets.xaml
 
-[C:/Users/PC/source/repos/AppBichoChique/AppBichoChique/AppBichoChique/Pages/Home.xaml]
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/Perfil.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.Pages.Home.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Home.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Home.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.Perfil.xaml
+build_metadata.AdditionalFiles.TargetPath = Perfil.xaml
+build_metadata.AdditionalFiles.RelativePath = Perfil.xaml
 
-[C:/Users/PC/source/repos/AppBichoChique/AppBichoChique/AppBichoChique/Pages/Login.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.Pages.Login.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Login.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Login.xaml
-
-[C:/Users/PC/source/repos/AppBichoChique/AppBichoChique/AppBichoChique/Resources/Styles/Colors.xaml]
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/PC/source/repos/AppBichoChique/AppBichoChique/AppBichoChique/Resources/Styles/Styles.xaml]
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/PC/source/repos/AppVeterinario/trabalho_NETMAUI/AppBichoChique/SobreNosxaml.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppBichoChique.SobreNosxaml.xaml
+build_metadata.AdditionalFiles.TargetPath = SobreNosxaml.xaml
+build_metadata.AdditionalFiles.RelativePath = SobreNosxaml.xaml

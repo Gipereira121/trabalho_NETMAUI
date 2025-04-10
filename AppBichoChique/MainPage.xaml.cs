@@ -1,24 +1,24 @@
-﻿namespace AppBichoChique
+﻿namespace AppBichoChique;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    int count = 0;
+
+    public MainPage()
     {
-        int count = 0;
+        InitializeComponent();
+        Shell.SetFlyoutBehavior(this, FlyoutBehavior.Disabled);
+        Shell.SetTabBarIsVisible(this, false);
+    }
 
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+    private async void btnLoginOnClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Login());
+    }
 
-        private async void btnLoginOnClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Pages.Login());
-        }
-
-        private async void btnCadastroOnClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Pages.Cadastro());
-        }
-
+    private async void btnCadastroOnClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Cadastro());
     }
 
 }

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBichoChique.Home"
+             Title=""
+             BackgroundColor="#E8E8E8">
+    
+    <VerticalStackLayout Padding="10, 50" Spacing="5">
+        <Label Text="INFORMAÇÕES PESSOAIS" TextColor="Black" TranslationX="30" FontAttributes="Bold"/>
+
+        <FlexLayout Wrap="Wrap" JustifyContent="Center" AlignItems="Center" Direction="Row">
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="15"
+                WidthRequest="150"
+                HeightRequest="170"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True"
+                BorderColor="Orange">
+
+                <StackLayout Spacing="10">
+                    <Label 
+                        Text="MEUS PETS" 
+                        TextColor="#D9661F" 
+                        FontAttributes="Bold" 
+                        HorizontalOptions="Center"
+                        FontSize="Subtitle"
+                        />
+
+                    <Label 
+                        Text="Veja as informações dos seus pets!" 
+                        FontSize="Small"
+                        TextColor="White"  
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Center"
+                        WidthRequest="120"/>
+
+                    <Button 
+                        x:Name="btnVerPets"
+                        Text="Ver Pets"
+                        TranslationY="20"
+                        BackgroundColor="Orange"
+                        TextColor="White"
+                        Clicked="btnMeusPetsClicked"/>
+
+
+                </StackLayout>
+            </Frame>
+
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="15"
+                WidthRequest="150"
+                HeightRequest="170"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True"
+                BorderColor="Orange">
+
+                <StackLayout Spacing="10">
+                    <Label 
+                        Text="MEU PERFIL" 
+                        TextColor="#D9661F" 
+                        FontAttributes="Bold" 
+                        HorizontalOptions="Center"
+                        FontSize="Subtitle"/>
+
+                    <Label 
+                        Text="Veja as suas informações!" 
+                        FontSize="Small"
+                        TextColor="White"  
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Center"
+                        WidthRequest="120"/>
+
+                    <Button 
+                        x:Name="btnVerPerfil"
+                        Text="Acessar Perfil"
+                        Clicked="btnVerPerfilClicked"
+                        TranslationY="20"
+                        BackgroundColor="Orange"
+                        TextColor="White"/>
+
+
+                </StackLayout>
+            </Frame>
+        </FlexLayout>
+
+        
+        <Label Text="NOSSOS SERVIÇOS" TextColor="Black" TranslationX="30" FontAttributes="Bold" TranslationY="30" Padding="0, 20"/>
+        
+        <FlexLayout Wrap="Wrap" JustifyContent="Center" AlignItems="Center" Direction="Row" Padding="2">
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="15"
+                WidthRequest="150"
+                HeightRequest="170"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True"
+                BorderColor="Orange">
+
+                <StackLayout Spacing="10">
+                    <Label 
+                        Text="VETERINÁRIO" 
+                        TextColor="#D9661F" 
+                        FontAttributes="Bold" 
+                        HorizontalOptions="Center"
+                        FontSize="Subtitle"
+                        />
+
+                    <Label 
+                        Text="Conheça mais sobre a gente!" 
+                        FontSize="Small"
+                        TextColor="White"  
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Center"
+                        WidthRequest="80"/>
+
+                    <Button 
+                        x:Name="btnVerVet"
+                        Text="Saiba Mais"
+                        TranslationY="20"
+                        BackgroundColor="Orange"
+                        TextColor="White"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="15"
+                WidthRequest="150"
+                HeightRequest="170"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True"
+                BorderColor="Orange">
+
+                <StackLayout Spacing="10">
+                    <Label 
+                        Text="AGENDAMENTO" 
+                        TextColor="#D9661F" 
+                        FontAttributes="Bold" 
+                        HorizontalOptions="Center"
+                        FontSize="Subtitle"
+                        />
+
+                    <Label 
+                        Text="Conheça mais sobre a gente!" 
+                        FontSize="Small"
+                        TextColor="White"  
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Center"
+                        WidthRequest="80"/>
+
+                    <Button 
+                        x:Name="btnAgendamento"
+                        Text="Agendar Agora"
+                        TranslationY="20"
+                        BackgroundColor="Orange"
+                        TextColor="White"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="15"
+                WidthRequest="150"
+                HeightRequest="170"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True"
+                BorderColor="Orange">
+
+                <StackLayout Spacing="10">
+                    <Label 
+                        Text="NOSSA LOCALIZAÇÃO" 
+                        TextColor="#D9661F" 
+                        FontAttributes="Bold" 
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        FontSize="14"
+                        />
+
+                    <Label 
+                        Text="Conheça mais sobre a gente!" 
+                        FontSize="Small"
+                        TextColor="White"  
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Center"
+                        WidthRequest="80"/>
+
+                    <Button 
+                        x:Name="btnVerLocalizacao"
+                        Text="Localização"
+                        TranslationY="5"
+                        BackgroundColor="Orange"
+                        TextColor="White"/>
+                </StackLayout>
+            </Frame> -->
+
+            <Frame
+                BackgroundColor="#EFD8BD"
+                Padding="15"
+                WidthRequest="150"
+                HeightRequest="170"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True"
+                BorderColor="Orange">
+
+                <StackLayout Spacing="10">
+                    <Label 
+                        Text="ALGUMA DÚVIDA?" 
+                        TextColor="#D9661F" 
+                        FontAttributes="Bold" 
+                        HorizontalOptions="Center"
+                        FontSize="14"
+                        />
+
+                    <Label 
+                        Text="Conheça mais sobre a gente!" 
+                        FontSize="Small"
+                        TextColor="White"  
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Center"
+                        WidthRequest="80"/>
+
+                    <Button 
+                        x:Name="btnDuvida"
+                        Text="Coversar Agora"
+                        TranslationY="20"
+                        BackgroundColor="Orange"
+                        TextColor="White"
+                        Clicked="btnConversarClicked"/>
+                </StackLayout>
+            </Frame>
+        </FlexLayout>
+        
+    </VerticalStackLayout>
+</ContentPage>

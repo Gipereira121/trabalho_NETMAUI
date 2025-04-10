@@ -4,12 +4,77 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AppBichoChique"
-    Shell.FlyoutBehavior="Disabled"
-    Title="AppBichoChique">
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible="True"
+    Shell.TabBarBackgroundColor="#132A13"
+    Shell.TabBarTitleColor="White"
+    Title="AppBichoChique"
+    Shell.BackgroundColor="#132A13"
+    Shell.FlyoutBackgroundColor="#132A13"
+    Shell.TitleColor="White"
+    Shell.DisabledColor="White"
+    Shell.ForegroundColor="White"
+    Shell.UnselectedColor="White">
 
-    <ShellContent
-        Title=""
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+
+    <Shell.FlyoutHeader>
+        <ScrollView>
+            <VerticalStackLayout Spacing="20" Padding="20, 30">
+                <Image
+                    Source="logo.png"
+                    HeightRequest="100"
+                    WidthRequest="100"/>
+
+                <Label Text="BICHO CHIQUE" FontAttributes="Bold" FontSize="Medium" TextColor="#F1BE4D" HorizontalOptions="Center" Padding="0, 0, 0, 50"/>
+
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Shell.FlyoutHeader>
+
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent 
+          Title=""
+          ContentTemplate="{DataTemplate local:MainPage}"
+          Route="MainPage" 
+          />
+        
+        <ShellContent
+            Title="Home"
+            Icon="home.png"
+            ContentTemplate="{DataTemplate local:Home}"
+            Route="Home" />
+
+        <ShellContent
+            Title="Meu Perfil"
+            Icon="profile.png"
+            ContentTemplate="{DataTemplate local:Perfil}"
+            Route="Perfil" />
+
+        <ShellContent
+            Title="Meus Pets"
+            Icon="pets.png"
+            ContentTemplate="{DataTemplate local:MeusPets}"
+            Route="MeusPets"/>
+
+        <ShellContent
+            Title="Sobre Nós"
+            Icon="about.png"
+            ContentTemplate="{DataTemplate local:SobreNosxaml}"
+            Route="SobreNosxaml"/>
+
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+
+        <Label
+			Text="© Giovana Pereira Gustavo  |   RA: 2400539"
+            TextColor="White"
+            Margin="0, 0, 0, 40"
+            HorizontalTextAlignment="Center"/>
+
+    </Shell.FlyoutFooter>
+
 
 </Shell>

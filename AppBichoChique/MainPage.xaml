@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppBichoChique.MainPage">
+             x:Class="AppBichoChique.MainPage"
+             Title="">
+    
 
     <ScrollView>
         <VerticalStackLayout Padding="30" Spacing="25" BackgroundColor="#E8E8E8">
             <Image
+                Margin="0, 20, 0, 0"
                 Source="logo.png"
                 HeightRequest="145"
                 Aspect="AspectFit"
@@ -15,7 +18,7 @@
             <Label TextColor="Chocolate" Text="Clinica Veterinária 24h " HorizontalOptions="Center" TranslationY="-25"/>
 
 
-            <Label Padding="0, 150, 0, 0" TextColor="#070719" Text="Seja Benvindo(a)," FontSize="Medium" FontAttributes="Bold"/>
+            <Label Padding="0, 300, 0, 0" TextColor="#070719" Text="Seja Benvindo(a)," FontSize="Medium" FontAttributes="Bold"/>
             <Label  TextColor="#070719" Text="Esta é  sua clínica de agendamento online para seu pet. Para continuar selecione uma das opções a baixo:" />
 
             <Grid ColumnSpacing="10">

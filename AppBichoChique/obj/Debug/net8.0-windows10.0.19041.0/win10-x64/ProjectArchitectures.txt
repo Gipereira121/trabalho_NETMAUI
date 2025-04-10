@@ -1,1 +1,1 @@
-C:\Users\PC\source\repos\AppBichoChique\AppBichoChique\AppBichoChique\AppBichoChique.csproj;x64
+C:\Users\PC\source\repos\AppVeterinario\trabalho_NETMAUI\AppBichoChique\AppBichoChique.csproj;x64
