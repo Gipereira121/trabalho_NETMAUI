@@ -2,11 +2,47 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppBichoChique.MeusPets"
-             Title="MeusPets">
-    <VerticalStackLayout>
+             Title="MeusPets"
+             BackgroundColor="#e8e8e8">
+
+    <VerticalStackLayout Padding="30" Spacing="10">
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        Text="Cadastro do Pet"
+        TextColor="Black"
+        VerticalOptions="Center" 
+        Padding="20, 0, 0 ,0" 
+        FontAttributes="Bold"
+        FontSize="30"/>
+
+        <Label TextColor="Black" Padding="0, 0, 0, 0" Text="Preecha os dados a seguir, de acordo com seus campos, para realizar o cadastro do seu bichinho: " />
+        <Entry x:Name="etrNome" Placeholder="Nome do animal" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="30"/>
+        <Label x:Name="lblDtNasc" Text="Data de Nascimento:" TextColor="black"  TranslationY="30" />
+        <DatePicker x:Name="MeuDatePicker" IsVisible="True" VerticalOptions="Center" BackgroundColor="#D9B387" TextColor="#1e1e1e" Format="dd/mm/yyyy" TranslationY="30" />
+        <Grid ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+
+            <Entry x:Name="etrEspecie" Placeholder="Espécie" PlaceholderColor="#1e1e1e" TextColor="#1e1e1e" BackgroundColor="#d9b387" Grid.Column="0" Grid.Row="1" TranslationY="30"/>
+            <Entry x:Name="etrGenero" Placeholder="Genero" PlaceholderColor="#1e1e1e" TextColor="#1e1e1e" BackgroundColor="#d9b387" Grid.Column="1" Grid.Row="1" TranslationY="30"/>
+
+        </Grid>
+        
+        
+        <Entry x:Name="etrPeso" Placeholder="Peso (kg)" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="30"/>
+        <Entry x:Name="etrPorte" Placeholder="Porte" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="30"/>
+        <Entry x:Name="etrRaca" Placeholder="Digite a Raça" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="30"/>
+
+        <Button x:Name="btnCadastro" Text="CADASTRAR"  BackgroundColor="#FF9920" Clicked="btnCadastroOnClicked" TranslationY="40" TextColor="Wheat"/>
+
+
     </VerticalStackLayout>
 </ContentPage>

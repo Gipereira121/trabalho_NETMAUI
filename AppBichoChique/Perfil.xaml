@@ -4,12 +4,78 @@
              x:Class="AppBichoChique.Perfil"
              Title="Perfil"
              BackgroundColor="#E8E8E8">
-    <VerticalStackLayout>
+    
+    <VerticalStackLayout Padding="10" Margin="30, 10"  Spacing="5">
         <Image 
             Source="user.png"
             HorizontalOptions="Center"
-            VerticalOptions="Center" />
+            VerticalOptions="Center" 
+            Margin="0, 0, 0, 10"/>
+
+        <Label
+            x:Name="NomePerfil"
+            Text="GIOVANA PEREIRA"
+            TextColor="Black"
+            FontSize="Large"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"/>
+
+        <Label
+            x:Name="EmialPerfil"
+            Text="giovanapereira@gmail.com"
+            TextColor="Black"
+            FontSize="Subtitle"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            Margin="0"
+            Padding="0"/>
+
+        <Entry x:Name="etrNome" Placeholder="Digite seu nome completo" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="20"/>
+        <Entry x:Name="etrEmail" Placeholder="Digite seu email" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="20"/>
+        <Entry x:Name="etrSenhaC" Placeholder="Digite sua senha" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="20"/>
+
+        <DatePicker x:Name="MeuDatePicker" IsVisible="True" VerticalOptions="Center" BackgroundColor="#D9B387" TextColor="#1e1e1e" Format="dd/mm/yyyy" TranslationY="20" />
+
+        <Entry x:Name="etrCPF" Placeholder="Digite seu CPF" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="20"/>
+        <Entry x:Name="etrTelefone" Placeholder="Digite seu telefone" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="20"/>
+        <Entry x:Name="etrEndereco" Placeholder="Digite seu endereço" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="20"/>
+
+        <Grid ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
 
 
+            <Entry x:Name="etrNumero" Placeholder="Seu numero" PlaceholderColor="#1e1e1e" TextColor="#1e1e1e" BackgroundColor="#d9b387" Grid.Column="0" Grid.Row="1" TranslationY="20"/>
+            <Entry x:Name="etrCEP" Placeholder="Seu CEP" PlaceholderColor="#1e1e1e" TextColor="#1e1e1e" BackgroundColor="#d9b387" Grid.Column="1" Grid.Row="1" TranslationY="20"/>
+
+        </Grid>
+
+        <Entry x:Name="etrBairro" Placeholder="Digite seu bairro" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="20" />
+
+        <Grid ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Button x:Name="btnVoltar" Text="Meus Pets" BackgroundColor="Orange" TextColor="White" TranslationY="32" Clicked="btnPetsClickled" Grid.Column="0" Grid.Row="3"/>
+            <Button x:Name="btnEditar" Text="Editar Dados" BackgroundColor="Orange" TextColor="White" TranslationY="32" Clicked="btnEditarClickled" Grid.Column="1" Grid.Row="3"/>
+
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>

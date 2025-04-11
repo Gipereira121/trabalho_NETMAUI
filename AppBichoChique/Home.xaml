@@ -107,8 +107,7 @@
                         TextColor="#D9661F" 
                         FontAttributes="Bold" 
                         HorizontalOptions="Center"
-                        FontSize="Subtitle"
-                        />
+                        FontSize="Subtitle" />
 
                     <Label 
                         Text="Conheça mais sobre a gente!" 
@@ -123,7 +122,9 @@
                         Text="Saiba Mais"
                         TranslationY="20"
                         BackgroundColor="Orange"
-                        TextColor="White"/>
+                        TextColor="White"
+                        Clicked="btnVerClicked"
+                        />
                 </StackLayout>
             </Frame>
 

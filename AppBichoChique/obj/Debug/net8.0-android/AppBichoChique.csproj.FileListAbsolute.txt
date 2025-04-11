@@ -1059,3 +1059,4 @@ C:\Users\PC\source\repos\AppVeterinario\trabalho_NETMAUI\AppBichoChique\obj\Debu
 C:\Users\PC\source\repos\AppVeterinario\trabalho_NETMAUI\AppBichoChique\obj\Debug\net8.0-android\resizetizer\r\drawable\profile.png
 C:\Users\PC\source\repos\AppVeterinario\trabalho_NETMAUI\AppBichoChique\obj\Debug\net8.0-android\resizetizer\r\drawable\pets.png
 C:\Users\PC\source\repos\AppVeterinario\trabalho_NETMAUI\AppBichoChique\obj\Debug\net8.0-android\resizetizer\r\drawable\user.png
+C:\Users\PC\source\repos\AppVeterinario\trabalho_NETMAUI\AppBichoChique\obj\Debug\net8.0-android\resizetizer\r\drawable\add.png

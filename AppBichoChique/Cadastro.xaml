@@ -47,7 +47,8 @@
         <Entry x:Name="etrBairro" Placeholder="Digite seu bairro" BackgroundColor="#D9B387" TextColor="#1e1e1e" PlaceholderColor="#1E1E1E" TranslationY="30" />
 
 
-        <Button x:Name="btnCadastro" Text="CADASTRAR"  BackgroundColor="#FF9920" Clicked="btnCadastroOnClicked" TranslationY="60" TextColor="Wheat"/>
+        <Button x:Name="btnCadastro" Text="CADASTRAR"  BackgroundColor="#FF9920" Clicked="btnCadastroOnClicked" TranslationY="40" TextColor="Wheat"/>
+        <Button x:Name="btnVoltar" Text="VOLTAR"  BackgroundColor="#FF9920" Clicked="btnVoltarOnClicked" TranslationY="40" TextColor="Wheat"/>
 
 
     </VerticalStackLayout>

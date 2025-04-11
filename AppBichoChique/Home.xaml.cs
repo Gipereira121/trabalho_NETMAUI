@@ -9,7 +9,6 @@ public partial class Home : ContentPage
 
     private async void btnMeusPetsClicked(object sender, EventArgs e)
     {
-        DisplayAlert("ATENÇÃO", "Esta pagina esta em construção, embreve será disponiblizada para você", "Ok");
         await Navigation.PushAsync(new MeusPets());
         return;
     }
@@ -20,6 +19,12 @@ public partial class Home : ContentPage
 
         await Navigation.PushAsync(new Perfil());
         return;
+    }
+
+
+    private async void btnVerClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new SobreNosxaml());
     }
 
     private async void btnConversarClicked(object sender, EventArgs e)

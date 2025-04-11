@@ -5,8 +5,13 @@ public partial class Cadastro : ContentPage
 	public Cadastro()
 	{
 		InitializeComponent();
-        Shell.SetFlyoutBehavior(this, FlyoutBehavior.Disabled);
-        Shell.SetTabBarIsVisible(this, false);
+
+    }
+
+    private async void btnVoltarOnClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Home());
+        return;
     }
 
     private async void btnCadastroOnClicked(object sender, EventArgs e)
